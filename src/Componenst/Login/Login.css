@@ -1,0 +1,41 @@
+
+.L-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 100vh;
+    background: black;
+}
+.L-Form{
+    border: 5px solid rgba(34, 38, 255, 0.568);
+    width: 250px;
+    height: 250px;
+    padding: 50px;
+    border-radius: 30px;
+    position: absolute;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.459);
+    background-color: rgba(0, 0, 0, 0.24);
+    
+    backdrop-filter: blur(5px);
+}
+.bg-img{
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    background-image:url(../../../public/imgs/bg_imgs/bg3.jpg);
+    background-repeat: no-repeat;   
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    filter: blur(4px);
+}
+.In-Login{
+    width: 100%;
+    box-shadow: 0 0 5px white;
+}
+.logo-con{
+    width: 30%;
+    /* background: bisque; */
+    margin-bottom: 20px;
+}

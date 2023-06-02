@@ -1,0 +1,237 @@
+.account-con{
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.a-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    gap: 50px;
+    width: 90%;
+    height: 90%;
+    margin: auto;
+    box-shadow: 0 10px 10px rgba(54, 67, 71, 0.452),0 10px 50px rgba(149, 188, 201, 0.425),0 10px 80px rgba(197, 240, 255, 0.5);
+    color: aliceblue;
+    background-color:  rgb(238, 238, 238);
+    overflow: hidden;
+    border-radius: 30px;
+}
+.LeftSide{
+    width: 30%;
+    height: 100%;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #0A2342;
+}
+.avatar{
+    width: 15%;
+    height: 7.5%;
+    border: 2px solid white;
+    border-radius: 100%;
+    padding: 5px;
+    margin: 50px 0;
+}
+.LeftSide h1{
+    font-size: 1.5vw;
+    font-weight: 600;
+    text-align: center;
+    margin: -40px 0 0 0 ;
+    background: unset;
+    padding: 20px;
+
+}
+.LeftSide .GoLinks{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 30px;
+    margin: 5px 0;
+    font-size: 1.5vw;
+    text-transform: uppercase;
+    font-weight: 100;
+    
+}
+.GoLinks a{
+    color: white;
+    transition: 0.5s;
+}
+.GoLinks a:hover{
+    color:#c03149;
+    font-weight: 500;
+    letter-spacing: 5px;
+}
+.GoLinks a:active{
+    color:#c03149;
+    font-weight: 500;
+    letter-spacing: 5px;
+}
+.RightSide{
+    width: 70%;
+    height: 100%;
+    border-radius: 30px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-wrap: wrap;
+}
+.RightSide h1{
+    background: unset;
+    width: 100%;
+    font-size: 2vw;
+    height: 5%;
+    color: rgba(56, 56, 56, 0.473);
+    text-transform: capitalize;
+    margin-top: 0;
+}
+h1{
+    background-color: rgba(80, 80, 160, 0.753);
+    width: auto;
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 10px;
+    display: flex;
+    font-size: 2vw;
+    justify-content: center;
+    align-items: center;
+}
+.account-form{
+    width: 100%;
+    height: 85%;
+    margin-top: -10px;
+    display: flex;
+    align-items: start;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    position: relative;
+}
+.account-form .LeftSide{
+    width: 70%;
+    display: flex;
+    background: unset;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    overflow-y: scroll;
+}
+.account-form .LeftSide::-webkit-scrollbar{
+    width: 0;
+}
+.account-form .contain{
+    width: 45%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    text-transform: capitalize;
+}
+.account-form .contain input,select{
+    width: auto;
+    box-shadow: unset;
+    padding: 20px;
+    background: #dfe0e2;
+    margin-left: -10px;
+    border-radius: 20px;
+    outline: unset;
+    border: unset;
+    transition: 0.3s;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.322);
+}
+.contain select:focus{
+    box-shadow: unset;
+    outline: unset;
+    background: #000;
+    color: white;
+}
+.contain input:focus{
+    background: #000;
+    color: white;
+    
+}
+.contain h2{
+    font-size: 1.2vw;
+    font-weight: 400;
+    margin: 10px 0;
+}
+
+.account-form .contin-data{
+    width: 100%;
+    margin: 10px 0;
+}
+.account-form .RightSide{
+    width: 20%;
+    height: 80%;
+}
+.account-form .RightSide .contain{
+    width: 100%;
+}
+.button-container{
+    width: 15%;
+    height: 15%;
+    position: absolute;
+    bottom: 20px;
+    right: 50px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 10px;
+}
+.button-container input{
+    width: auto;
+    padding: 10px;
+    border-radius: 30px;
+    margin: 0;
+    font-size: 1vw;
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+
+}
+.contin-data label{
+    color: rgb(236, 236, 236);
+    display: inline-block;
+    margin: 0 3px;
+    text-transform: uppercase;
+}
+.contin-data p{
+    text-transform: uppercase;
+    font-weight: 800;
+    color: #f25e49;
+}
+label,p{
+    color: aliceblue;
+    display: inline-block;
+    margin: 0 3px;
+    letter-spacing: 1px;
+
+}
+.logout{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    font-size: 1vw;
+    text-transform: uppercase;
+}
+.logicon{
+    width: 3%;
+    height: 50%;
+    margin: 0 5px 7px 5px;
+}
+.logout a:hover{
+    color: white;
+}

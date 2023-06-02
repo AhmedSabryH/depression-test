@@ -1,0 +1,121 @@
+.si-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.509);
+    background-color: #000000 !important; /* إضافة !important لخاصية الخلفية */
+}
+.Si-bg{
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    background-image:url(../../../public/imgs/bg_imgs/bg.jpg);
+    background-repeat: no-repeat;   
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    filter: blur(3px);
+}
+.header{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    color: #fff;
+}
+
+.Si-Form {
+    border: 3px solid rgba(34, 38, 255, 0.568);
+    padding: 10px;
+    border-radius: 30px;
+    width: 453px;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    backdrop-filter: blur(5px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.459);
+    flex-wrap: wrap;
+    background-color: rgba(0, 0, 0, 0.486);
+    margin: 10px;
+}
+
+.content{
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 1px 1rem; /* استخدام margin بدلاً من gap */
+    min-height: fit-content; /* إضافة خاصية min-height */
+}
+
+
+input,
+select {
+    margin-left: 0.5rem;
+    width: 10rem;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 0.25rem;
+    background: rgb(230, 230, 230);
+    box-shadow: 0 0 20px #9999bb; 
+    font-size: 1rem;
+    color: #333;
+}
+select{
+    width: 100%;
+}
+
+input:focus,
+select:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px #000000, 0 0 0 4px rgba(255, 255, 255, 0.1);
+}
+
+input[type="submit"] {
+    border: none;
+    border-radius: 0.25rem;
+    color: #fff;
+    font-size: 1.2rem;
+    background: #015fe0;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.287) ;
+    transition: background-color 0.2s ease-in-out;
+}
+
+input[type="submit"]:hover {
+    background-color:white;
+    color: #015fe0;
+}
+input[type="submit"]:active {
+    background-color:black;
+    color:white;
+    box-shadow: unset;
+}
+
+button{
+    background-color: black;
+    border: none;
+    border-radius: 0.25rem;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #015fe0;
+}
+.S-logoCon{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.S-logoCon .logo-con{
+    width: 20%;
+}

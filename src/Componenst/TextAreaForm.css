@@ -1,0 +1,65 @@
+.Textarea-con{
+    width: 100%;
+    height: 86vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+}
+.Textarea-con form{
+    width: 60%;
+    height: 86vh;
+    padding: 30px;
+    border-radius: 100px 10px;
+    margin: 100px auto;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.678);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background: #0A2342;
+    color: #fff;
+    gap: 30px;
+}
+.Textarea-con textarea{
+    width: 80%;
+    height: 50%;
+    resize: none;
+    outline: unset;
+    border: 3px solid #f0ebdb;
+    background:unset;
+    border-radius: 30px 0;
+    color: #c03149;
+    padding: 10px;
+    font-size: 20px;
+    transition: 0.3s;
+}
+.Textarea-con textarea::placeholder{
+    color: rgb(221, 221, 221);
+}
+.Textarea-con textarea:focus{
+    background: rgb(233, 233, 233);
+    color: #0A2342;
+    width: 83%;
+    height: 53%;
+}
+.Textarea-con input{
+    background: #c03149;
+    font-size: 25px;
+    transition: 0.3s;
+    width: auto;
+    padding: 10px 20px ;
+}
+.Textarea-con input:hover{
+    background: white;
+    color: #c03149;
+    font-size: 20px;
+    box-shadow: 0 0 10px #132d4e, 0 0 40px #2d64ac, 0 0 80px #76b1ff;
+}
+.Textarea-con input:active{
+    background: white;
+    color: #c03149;
+    font-size: 20px;
+    box-shadow: 0 0 10px #132d4e, 0 0 40px #2d64ac, 0 0 80px #76b1ff;
+}
